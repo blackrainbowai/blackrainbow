@@ -14,9 +14,15 @@ serde_json = "1.0.133"
 [features]
 custom-protocol = ["tauri/custom-protocol"]
 
+default = []
+Debug = ["unbug/enable"]
+
 [target."cfg(windows)".dependencies]
 winapi = { version = "0.3.9", features = ["shellscalingapi"] }
 
 [[bin]]
 name = "Build"
 path = "build.rs"
+
+[dependencies]
+unbug = { version = "0.2.0", features = ["enable"] }
