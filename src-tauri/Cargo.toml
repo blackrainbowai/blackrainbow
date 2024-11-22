@@ -25,4 +25,4 @@ name = "Build"
 path = "build.rs"
 
 [dependencies]
-unbug = { version = "0.2.0", features = ["enable"] }
+unbug = { version = "0.3.0", features = ["enable"] }
