@@ -31,6 +31,7 @@ const refresh = async () => {
 			(el) =>
 				setTimeout(() => {
 					el?.click();
+
 					setTimeout(() => el?.click(), 1000);
 				}, 1000),
 		);

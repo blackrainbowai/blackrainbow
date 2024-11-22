@@ -12,7 +12,9 @@ const refresh = async () => {
 
 		(await getElement(".js-column")).forEach(async (el) => {
 			const focus = await getElement(".js-stream-item", el);
+
 			const length = focus.length;
+
 			const id = Math.floor(Math.random() * length);
 
 			if (
