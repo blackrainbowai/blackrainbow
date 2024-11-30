@@ -46,8 +46,11 @@ fn main() {
 								.eval(&format!(
 									r#"
 									var style = document.createElement('style');
+
 									style.innerHTML = `{}`;
+
 									style.setAttribute('data-from', 'tauri');
+
 									document.head.appendChild(style);
 								"#,
 									&fs::read_to_string(
