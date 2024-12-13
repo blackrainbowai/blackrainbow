@@ -8,7 +8,7 @@ target-dir = "Target"
 [build-dependencies]
 tauri-build = { version = "2.0.3", features = [] }
 tauri = { version = "2.1.1", features = ["api-all", "devtools", "system-tray"] }
-serde = { version = "1.0.215", features = ["derive"] }
+serde = { version = "1.0.216", features = ["derive"] }
 serde_json = { version = "1.0.133" }
 
 [features]
@@ -25,4 +25,4 @@ name = "Build"
 path = "build.rs"
 
 [dependencies]
-unbug = { version = "0.3.0", features = ["enable"] }
+unbug = { version = "0.4.0", features = ["enable"] }
