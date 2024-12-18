@@ -32,10 +32,7 @@ fn main() {
 								.eval(
 									&fs::read_to_string(
 										app.path_resolver()
-											.resolve_resource(format!(
-												"../Target/scripts/{}.js",
-												window.label()
-											))
+											.resolve_resource(format!("../Target/scripts/{}.js", window.label()))
 											.expect("Cannot resolve_resource."),
 									)
 									.expect("Error while reading JS file."),
@@ -55,10 +52,7 @@ fn main() {
 								"#,
 									&fs::read_to_string(
 										app.path_resolver()
-											.resolve_resource(format!(
-												"../Target/styles/{}.css",
-												window.label()
-											))
+											.resolve_resource(format!("../Target/styles/{}.css", window.label()))
 											.expect("cannot resolve_resource.")
 									)
 									.expect("Error while reading CSS file.")
