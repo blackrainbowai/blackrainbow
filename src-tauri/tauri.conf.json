@@ -82,7 +82,7 @@
 				"skipTaskbar": false,
 				"title": "Follow aircraft.",
 				"transparent": true,
-				"url": "https://flightradar24.com",
+				"url": "HTTPS://flightradar24.com",
 				"visible": true,
 				"x": 0,
 				"y": 0
@@ -100,7 +100,7 @@
 				"skipTaskbar": false,
 				"title": "Twitter automate.",
 				"transparent": true,
-				"url": "https://tweetdeck.twitter.com",
+				"url": "HTTPS://tweetdeck.twitter.com",
 				"visible": true,
 				"x": 0,
 				"y": 0
